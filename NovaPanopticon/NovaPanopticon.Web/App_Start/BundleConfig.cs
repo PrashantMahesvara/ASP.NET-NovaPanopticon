@@ -10,7 +10,8 @@ namespace NovaPanopticon.Web
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
                         "~/Scripts/jquery-{version}.js",
-                        "~/Scripts/umd/popper.js"
+                        "~/Scripts/umd/popper.js",
+                        "~/Scripts/bootbox.js"
 
 
                         ));
