@@ -213,8 +213,13 @@
     <Compile Include="Migrations\201808111627582_SeedUserRoles.Designer.cs">
       <DependentUpon>201808111627582_SeedUserRoles.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201808111731453_AddedPersonClass.cs" />
+    <Compile Include="Migrations\201808111731453_AddedPersonClass.Designer.cs">
+      <DependentUpon>201808111731453_AddedPersonClass.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="ViewModels\Authentication %28svenska%29\AddPhoneNumberViewModel.cs" />
@@ -319,6 +324,7 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Views\Home\index.html" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -363,6 +369,7 @@
     <Content Include="Scripts\popper-utils.min.js.map" />
     <Content Include="Scripts\popper-utils.js.map" />
     <Content Include="Views\Home\IndexAdmin.cshtml" />
+    <Content Include="Views\Home\Welcome.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -399,6 +406,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201808111627582_SeedUserRoles.resx">
       <DependentUpon>201808111627582_SeedUserRoles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201808111731453_AddedPersonClass.resx">
+      <DependentUpon>201808111731453_AddedPersonClass.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

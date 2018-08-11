@@ -8,6 +8,11 @@ namespace NovaPanopticon.Web.Controllers
 {
     public class HomeController : Controller
     {
+        public ActionResult Welcome()
+        {
+            return View();
+        }
+
         public ActionResult Index()
         {
 
